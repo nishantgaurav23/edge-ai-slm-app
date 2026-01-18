@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Kivy
+*.kv~
+.kivy/
+
+# Models (large files)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+
+# Keep models directory but ignore model files
+!models/.gitkeep
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Encryption keys
+.encryption_key
+*.key
+
+# Logs
+*.log
+logs/
+*.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Android build files (for future mobile deployment)
+*.apk
+*.ap_
+*.dex
+local.properties
+.gradle/
+.navigation/
+captures/
+output.json
+
+# iOS build files (for future mobile deployment)
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+DerivedData/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+*.cache
+.cache/
+
+# Build artifacts
+*.spec
